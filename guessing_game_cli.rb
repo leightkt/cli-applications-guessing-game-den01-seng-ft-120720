@@ -25,8 +25,8 @@ def end_game
 end
 
 def run_guessing_game
-  guess = generate_guess
-  prompt_user
+  # guess = generate_guess
+  # prompt_user
   input = capture_input
   check_input(input, guess)
 end
