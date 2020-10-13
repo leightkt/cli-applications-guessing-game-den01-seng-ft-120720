@@ -7,7 +7,7 @@ def prompt_user
 end
 
 def capture_input
-  input = gets
+  input = gets.chomp
 end
 
 def check_input(input, guess)
