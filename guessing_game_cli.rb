@@ -1,6 +1,5 @@
 def generate_guess
-  guess = rand(1..6)
-  guess
+  rand(1..6)
 end
 
 def prompt_user
