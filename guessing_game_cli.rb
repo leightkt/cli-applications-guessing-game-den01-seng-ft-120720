@@ -1,10 +1,10 @@
-# def generate_guess
-#   rand(1..6)
-# end
+def generate_guess
+  rand(1..6)
+end
 
-# def prompt_user
-#   puts "Guess a number 1 to 6!"
-# end
+def prompt_user
+  puts "Guess a number 1 to 6!"
+end
 
 def capture_input
   input = gets.chomp
@@ -25,8 +25,8 @@ def end_game
 end
 
 def run_guessing_game
-  # guess = generate_guess
-  # prompt_user
+  guess = generate_guess
+  prompt_user
   input = capture_input
   check_input(input, guess)
 end
