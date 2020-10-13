@@ -1,5 +1,6 @@
 def generate_guess
-  rand(1..6)
+  guess = rand(1..6)
+  guess
 end
 
 def prompt_user
@@ -11,7 +12,7 @@ def capture_input
 end
 
 def check_input(input, guess)
-  if input.to_i == guess
+  if (input.to_i) == guess
     puts "You guessed the correct number!"
   elsif input == "exit"
     end_game
